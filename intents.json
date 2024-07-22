@@ -1,0 +1,157 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "How are you?",
+          "Is anyone there?",
+          "Good morning",
+          "Good evening"
+        ],
+        "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there! What can I do for you?",
+          "Greetings! How can I help you?"
+        ]
+      },
+      {
+        "tag": "account_balance",
+        "patterns": [
+          "What's my account balance?",
+          "How much money do I have?",
+          "Show my balance",
+          "Check my account balance",
+          "What is the current balance?"
+        ],
+        "responses": [
+          "Let me check your account balance for you.",
+          "I will fetch your current balance.",
+          "Checking your balance now."
+        ]
+      },
+      {
+        "tag": "transfer_funds",
+        "patterns": [
+          "Transfer funds",
+          "Send money",
+          "Move money to another account",
+          "Transfer $100 to my savings",
+          "I want to make a transfer",
+          "Send $50 to account number 123456"
+        ],
+        "responses": [
+          "I can help with that. Please provide the details of the transfer.",
+          "Sure! I need to know the amount and recipient account.",
+          "Let's proceed with your fund transfer request."
+        ]
+      },
+      {
+        "tag": "transaction_history",
+        "patterns": [
+          "Show my transaction history",
+          "What are my recent transactions?",
+          "List my last few transactions",
+          "Display recent transactions",
+          "Give me a history of my transactions"
+        ],
+        "responses": [
+          "Fetching your recent transactions.",
+          "I'll list your last few transactions for you.",
+          "Here is the history of your recent transactions."
+        ]
+      },
+      {
+        "tag": "account_summary",
+        "patterns": [
+          "Give me an account summary",
+          "Show my account details",
+          "What’s the summary of my account?",
+          "Provide an overview of my account",
+          "Show me a summary of my account"
+        ],
+        "responses": [
+          "I will get your account summary.",
+          "Here is a summary of your account.",
+          "Let me fetch the details of your account."
+        ]
+      },
+      {
+        "tag": "credit_card_status",
+        "patterns": [
+          "What's the status of my credit card?",
+          "Check my credit card status",
+          "Is my credit card active?",
+          "What’s the status of my card?",
+          "Show credit card status"
+        ],
+        "responses": [
+          "I will check the status of your credit card for you.",
+          "Let me verify the status of your credit card.",
+          "Checking the status of your credit card now."
+        ]
+      },
+      {
+        "tag": "loan_inquiries",
+        "patterns": [
+          "Information about my loan",
+          "Check my loan status",
+          "Details of my loan",
+          "Loan balance",
+          "Show my loan information"
+        ],
+        "responses": [
+          "I will retrieve the details of your loan.",
+          "Let me get the information on your loan.",
+          "Fetching the status and details of your loan."
+        ]
+      },
+      {
+        "tag": "account_update",
+        "patterns": [
+          "Update my account information",
+          "Change my account details",
+          "Modify my account settings",
+          "Update personal information",
+          "I want to change my account details"
+        ],
+        "responses": [
+          "Please provide the details you want to update.",
+          "I can help with updating your account information.",
+          "Let me assist you with changing your account details."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I want to file a complaint",
+          "Submit a complaint",
+          "Raise an issue",
+          "File a complaint about a transaction",
+          "I have a problem with my account"
+        ],
+        "responses": [
+          "Please provide the details of your complaint.",
+          "I will help you file your complaint.",
+          "Let me know what issue you are facing so I can assist you."
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "Goodbye",
+          "See you later",
+          "Bye",
+          "Have a nice day",
+          "Thanks for your help"
+        ],
+        "responses": [
+          "Goodbye! Have a great day!",
+          "See you later! If you need more help, just ask.",
+          "Bye! Feel free to reach out if you need anything else."
+        ]
+      }
+    ]
+  }
+  
